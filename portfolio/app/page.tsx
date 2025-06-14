@@ -107,7 +107,7 @@ export default function Home() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.6, duration: 0.8 }}
               >
-                Java Full Stack Developer
+                Python Full Stack Developer
               </motion.p>
               <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 px-4">
                 <motion.a
@@ -190,7 +190,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 style={{ transformStyle: "preserve-3d" }}
               >
-                A highly skilled and motivated recent Computer Science graduate, passionate about developing innovative projects and leveraging technology to solve complex problems. I possess a strong foundation in Java and related technologies including Spring Boot, Hibernate, and JSP/Servlets, complemented by hands-on experience in full-stack development. My projects demonstrate my ability to apply technical knowledge to real-world challenges. I am a collaborative team player, eager to contribute to cutting-edge projects and continuously expand my skillset in Java development. I am actively seeking opportunities where I can apply my expertise and grow as a Java Full Stack Developer.
+                A highly skilled and motivated recent Computer Science graduate, passionate about developing innovative projects and leveraging technology to solve complex problems. I possess a strong foundation in Python and related technologies including Django, Flask, and FastAPI, complemented by hands-on experience in full-stack development. My projects demonstrate my ability to apply technical knowledge to real-world challenges. I am a collaborative team player, eager to contribute to cutting-edge projects and continuously expand my skillset in Python development. I am actively seeking opportunities where I can apply my expertise and grow as a Python Full Stack Developer.
               </motion.p>
             </motion.div>
           </div>
