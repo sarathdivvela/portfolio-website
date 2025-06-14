@@ -110,35 +110,20 @@ export default function Home() {
                 Python Full Stack Developer
               </motion.p>
               <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 px-4">
-                <motion.a
+                <a
                   href="#projects"
-                  whileHover={{ 
-                    scale: 1.05,
-                    rotateY: 10,
-                    boxShadow: "0 0 20px rgba(59, 130, 246, 0.5)"
-                  }}
-                  whileTap={{ scale: 0.95, rotateY: -5 }}
                   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full transition-all duration-300 text-sm sm:text-base"
-                  style={{ transformStyle: "preserve-3d" }}
                 >
                   View My Work
-                </motion.a>
-                <motion.a
+                </a>
+                <a
                   href="/resume.pdf"
-                  download="resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  whileHover={{ 
-                    scale: 1.05,
-                    rotateY: -10,
-                    boxShadow: "0 0 20px rgba(75, 85, 99, 0.5)"
-                  }}
-                  whileTap={{ scale: 0.95, rotateY: 5 }}
                   className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full transition-all duration-300 text-sm sm:text-base"
-                  style={{ transformStyle: "preserve-3d" }}
                 >
                   View Resume
-                </motion.a>
+                </a>
               </div>
             </motion.div>
           </div>
@@ -543,12 +528,11 @@ export default function Home() {
                       <FontAwesomeIcon icon={faSolidFilePdf} className="h-5 w-5 sm:h-6 sm:w-6 text-blue-500" />
                       <a 
                         href="/resume.pdf" 
-                        download="resume.pdf"
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-sm sm:text-base text-gray-300 hover:text-white transition-colors hover:text-blue-400"
                       >
-                        Download Resume
+                        View Resume
                       </a>
                     </div>
                     <div className="flex items-center space-x-3 sm:space-x-4">
