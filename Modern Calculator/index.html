@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator-header">
+                <h1 class="calculator-title">Calculator Pro</h1>
+            </div>
+            <div class="display-section">
+                <div class="history" id="history"></div>
+                <div class="current-display" id="display">0</div>
+            </div>
+            
+            <div class="buttons-grid">
+                <!-- Row 1 - Functions -->
+                <button class="btn function-btn clear-all" onclick="clearAll()" title="Clear All">AC</button>
+                <button class="btn function-btn" onclick="toggleSign()" title="Plus/Minus">±</button>
+                <button class="btn function-btn" onclick="percentage()" title="Percentage">%</button>
+                <button class="btn operator-btn" onclick="inputOperator('÷')" title="Divide">÷</button>
+                
+                <!-- Row 2 -->
+                <button class="btn number-btn" onclick="inputNumber('7')" title="Seven">7</button>
+                <button class="btn number-btn" onclick="inputNumber('8')" title="Eight">8</button>
+                <button class="btn number-btn" onclick="inputNumber('9')" title="Nine">9</button>
+                <button class="btn operator-btn" onclick="inputOperator('×')" title="Multiply">×</button>
+                
+                <!-- Row 3 -->
+                <button class="btn number-btn" onclick="inputNumber('4')" title="Four">4</button>
+                <button class="btn number-btn" onclick="inputNumber('5')" title="Five">5</button>
+                <button class="btn number-btn" onclick="inputNumber('6')" title="Six">6</button>
+                <button class="btn operator-btn" onclick="inputOperator('-')" title="Subtract">−</button>
+                
+                <!-- Row 4 -->
+                <button class="btn number-btn" onclick="inputNumber('1')" title="One">1</button>
+                <button class="btn number-btn" onclick="inputNumber('2')" title="Two">2</button>
+                <button class="btn number-btn" onclick="inputNumber('3')" title="Three">3</button>
+                <button class="btn operator-btn" onclick="inputOperator('+')" title="Add">+</button>
+                
+                <!-- Row 5 -->
+                <button class="btn number-btn zero-btn" onclick="inputNumber('0')" title="Zero">0</button>
+                <button class="btn number-btn" onclick="inputDecimal('.')" title="Decimal">.</button>
+                <button class="btn equals-btn" onclick="calculate()" title="Equals">=</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
