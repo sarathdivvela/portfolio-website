@@ -5,9 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Your Name - Portfolio',
-  description: 'Full Stack Developer Portfolio showcasing projects and skills',
-
+  title: 'sarath divvela - Portfolio',
+ 'Official portfolio of Sarath Divvela, Full Stack Developer. Explore projects, skills, and achievements. Search Sarath Divvela Portfolio, Sarath Developer, Sarath Fullstack Developer.',
   // ✅ Google Search Console verification
   verification: {
     google: 'aKZHEnz6pjJF_zjU-ddx7RP00rXEoBgvKGnTP9vnRhg', // paste the code from Search Console
