@@ -74,7 +74,7 @@ export default function Home() {
                 }}
                 src="/images/profile.png"
                 alt="Your Name"
-                className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-cover mb-4 sm:mb-6 border-4 border-blue-500 shadow-lg shadow-blue-500/50"
+                className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-fill mb-4 sm:mb-6 border-4 border-blue-500 shadow-lg shadow-blue-500/50"
                 style={{ transformStyle: "preserve-3d" }}
              />
             <motion.div
