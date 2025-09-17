@@ -117,7 +117,8 @@ export default function Home() {
                   View My Work
                 </a>
                 <a
-                  href="/resume.pdf"
+                  //href="/resume.pd"
+                  href="https://drive.google.com/file/d/1AxxEMbQfEYQaC7_HSbI7TlQMr96kpc0i/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full transition-all duration-300 text-sm sm:text-base"
