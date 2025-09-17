@@ -72,7 +72,8 @@ export default function Home() {
                   rotateY: 180,
                   transition: { duration: 0.8 }
                 }}
-                src="/images/profile.jpg"
+                //src="/images/profile.jpg"
+                 src="https://drive.google.com/file/d/1AxxEMbQfEYQaC7_HSbI7TlQMr96kpc0i/view?usp=drive_link"
                 alt="Your Name"
                 className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-cover mb-4 sm:mb-6 border-4 border-blue-500 shadow-lg shadow-blue-500/50"
                 style={{ transformStyle: "preserve-3d" }}
@@ -117,8 +118,7 @@ export default function Home() {
                   View My Work
                 </a>
                 <a
-                  //href="/resume.pd"
-                  href="https://drive.google.com/file/d/1AxxEMbQfEYQaC7_HSbI7TlQMr96kpc0i/view?usp=drive_link"
+                  href="/resume.pd"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full transition-all duration-300 text-sm sm:text-base"
