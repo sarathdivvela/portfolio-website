@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     google: 'aKZHEnz6pjJF_zjU-ddx7RP00rXEoBgvKGnTP9vnRhg', // paste the code from Search Console
   },
     icons: {
-    icon: './letter_s.jpg',          // 32x32 or 64x64 works best
+    icon: 'letter_s.jpg',          // 32x32 or 64x64 works best
     apple: 'https://img.freepik.com/premium-vector/creative-letter-s-logo-design_633982-164.jpg',         // for iOS devices
   },
 };
