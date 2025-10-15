@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     google: 'aKZHEnz6pjJF_zjU-ddx7RP00rXEoBgvKGnTP9vnRhg', // paste the code from Search Console
   },
     icons: {
-    icon: "/images/Eligance - Copy.png",          // 32x32 or 64x64 works best
+    icon: "/images/logo.png",          // 32x32 or 64x64 works best
     apple: "/images/Eligance - Copy.png",         // for iOS devices
   },
 };
